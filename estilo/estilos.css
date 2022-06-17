@@ -1,0 +1,420 @@
+* { 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}   
+/*header index*/
+.imagen1 { 
+    width: 200px;
+    margin-left: ;
+}
+body { 
+    background-color: #a79581;
+    font-family: 'Courier New', Courier, monospace;
+    } 
+header { 
+    background-color: white;
+    width: 100%;
+    clear: both;
+    display: table;
+}
+.menu { 
+    width: 900px;
+    margin: 0 auto;
+}
+nav { 
+    float: right;
+}
+ul { 
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+li { 
+    display: inline-block;
+    padding: 15px 30px;
+}
+ul a{ 
+    text-align: right;
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2vw;
+    border-right: solid 2px #503d2e;
+}
+a:hover { 
+    color: #503d2e;
+    transition: 0.5s;
+}
+/* termina header */
+/*main index*/
+main h2 { 
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #503d2e;
+    color: white;
+}
+.cardd { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-around;
+    background-color: none;
+    }
+.card__image { 
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 120px;
+    }
+.card__img { 
+    width: 180px;
+    margin-left: -25px;
+    margin-top: -56px;
+}
+.consulta { 
+    text-decoration: underline #503d2e;
+    color: white;
+    margin-top: -5px;
+}
+.pago { 
+    margin-top: -60px;
+    margin-left: -50px;
+    color: white;
+    text-decoration: underline #503d2e;
+}
+.seguirnos { 
+    text-decoration: underline #503d2e; 
+    color: white;
+    margin-top: -17px;
+    margin-left: -8px;
+}
+
+.redes { 
+    margin-top: -10px;
+}
+.productoss p { 
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #503d2e;
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+}
+/*productos destacados*/
+.productos { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-around;
+    background-color: none;
+} 
+.des { 
+    color: white;
+    text-decoration: underline #503d2e;
+    margin-left: 75px;
+}
+#pr { 
+    margin-top: 10px;    
+}
+.vermas { 
+    text-align: center;
+    margin-top: 30px;
+}
+.boton { 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    background-color: #503d2e;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#503d2e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button:hover {background-color:#c1af9b}
+
+.button:active {
+    background-color:#503d2e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.arriba { 
+    margin-top: -20px;
+}
+article { 
+    margin-top: 10px;
+}
+.sobremipp { 
+    text-align: center;
+    color: white;
+    background-color: #503d2e;
+    margin-top: 30px;
+}
+.soyju { 
+    background-color: #8a7057;
+    height: 400px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 900px;
+    color: white;
+}
+footer  { 
+    background-color: white;
+}
+.arribaa { 
+    text-align: center;
+    margin-top: -20px;
+}
+.arribaa a { 
+    margin-top: -10;
+}
+.final { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-around;
+    background-color: none;
+}
+.logo { 
+    margin-left: 120px;
+}
+.noolv { 
+    margin-top: -18px;
+    margin-left: 50px;
+}
+
+
+/*PRODUCTOS*/
+.bodyproductos { 
+    background-color: #a79581;
+    font-family: 'Courier New', Courier, monospace;
+}
+.productostittle {
+    font-size: 20px;
+    text-align: center;
+    background-color: #503d2e;
+    color: white;
+}
+.grid_articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 2rem 5rem 0rem;
+}
+.grid_articles img{
+    border-radius: 2rem;
+    border-color: #503d2e;
+    border-width: 0.2rem;
+    border-style: solid;
+    height: 15rem;
+    width: 20rem;
+    margin-left: 2rem;
+}
+.grid_articles p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+/*footer*/
+#productosmp img { 
+    position: relative;
+    top: -310px;
+    left: 920px;
+}
+
+/*contactos*/
+#pcontacto { 
+    background-color: #c1af9b;
+    height: 140px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 600px;
+    color: white;
+}
+/*informacion*/
+.inf1 { 
+    color: white;
+    background-color: #503d2e;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#comprar { 
+    background-color: #c1af9b;
+    height: 50px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 800px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.infpr { 
+    background-color: #c1af9b;
+    height: 110px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 800px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#curar { 
+    background-color: #503d2e;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.curar { 
+    background-color: #c1af9b;
+    height: 150px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 800px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*trabajos*/
+.galeria { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 2rem 5rem 0rem;
+}
+.galeria img {  
+    border-radius: 2rem;
+    border-color: #503d2e;
+    border-width: 0.2rem;
+    border-style: solid;
+    height: 15rem;
+    width: 20rem;
+    margin-left: 2rem;
+
+}
+.videoss {   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 2rem 5rem 0rem;
+}
+.videos video { 
+    border-radius: 2rem;
+    border-color: #503d2e;
+    border-width: 0.2rem;
+    border-style: solid;
+    height: 15rem;
+    width: 20rem;
+    margin-left: 2rem;
+
+}
+
+.videoss 
+#trabajos { 
+    text-align: center;
+    background-color: #503d2e;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fotostr { 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    /*informacion*/
+    .container {
+        width: 90%;
+        max-width: 1000px;
+        margin: 1.6em auto;
+        display: grid;
+        gap: 1.6em;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .container>.header, .container>.content, .container>.sidebar, .container>.footer, .container>div {
+        background: #fff;
+        padding: 20px;
+        border: 1px solid #000000;
+    }
+    
+    .container>.header, .container>.footer {
+        grid-column: 1/-1;
+        background-color: #503d2e;
+        color: #ffffff;
+    }
+    
+    .container>.content {
+        grid-column: span 3;
+        grid-row: span 4;
+    }
+    
+    .content>.article {
+        background: #8a7057;
+        padding: 20px;
+        margin-top: 5px;
+        color: #dfe6e9
+    }
+    
+    .content .article h1,
+    .content .article p {
+        padding: 10px;
+    }
+    
+    .container>.sidebar {
+        grid-column: span 2;
+        grid-row: span 4;
+        background: #503d2e;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+    }
+    .container>.sidebar a { 
+        color: white;
+    }
+    .container .sidebar img {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    
+    
+    /* MEDIA QUERIES */
+    
+    @media screen and (max-width: 768px) {
+        .header {
+            text-align: center;
+        }
+        .container .content {
+            grid-column: 1 / -1;
+        }
+        .container .sidebar {
+            grid-column: 1 / 6;
+        }
+    
+        .container .imagen {
+            grid-column: 1/-1;
+        }
+    }
+
+
+/*INFORMACION*/
