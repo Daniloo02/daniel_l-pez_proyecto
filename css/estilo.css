@@ -10,7 +10,6 @@
 }
 
 body {
-  background-color: #a79581;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -48,7 +47,15 @@ nav ul li a {
 }
 nav ul li:hover {
   color: #503d2e;
-  transition: 0.5s;
+  transition: 0.1s;
+}
+
+main {
+  background-color: #a79581;
+}
+
+.container {
+  background-color: #a79581;
 }
 
 main h2 {
@@ -156,23 +163,7 @@ main h2 {
   margin-top: 30px;
 }
 
-.boton {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 60px;
-  background-color: #503d2e;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  border-radius: 5px;
-}
-
-.button {
+.button, .boton {
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -187,11 +178,11 @@ main h2 {
   box-shadow: 0 9px #999;
 }
 
-.button:hover {
+.button:hover, .boton:hover {
   background-color: #c1af9b;
 }
 
-.button:active {
+.button:active, .boton:active {
   background-color: #503d2e;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -231,7 +222,7 @@ article {
 
 /*FOOTER*/
 footer {
-  background-color: white;
+  width: 100%;
 }
 
 .final {
@@ -269,6 +260,14 @@ footer {
 }
 
 /*INFORMACION*/
+#infbody {
+  background-color: #a79581;
+}
+
+#futerinf {
+  background-color: white;
+}
+
 .inf1 {
   color: white;
   background-color: #503d2e;
@@ -307,7 +306,7 @@ footer {
   height: 150px;
   margin: 2rem auto;
   text-align: center;
-  width: 800px;
+  width: 1600px;
   color: white;
   font-family: "Courier New", Courier, monospace;
 }
@@ -319,6 +318,7 @@ footer {
   display: grid;
   gap: 1.6em;
   grid-template-columns: repeat(5, 1fr);
+  left: -150px;
 }
 
 .container > .header, .container > .content, .container > .sidebar, .container > .footer, .container > div {
@@ -418,5 +418,9 @@ footer {
     grid-column: 1/-1;
   }
 }
+/* *MULTIPLICACION*/
+/*-RESTA*/
+/*+SUMA*/
+/*/DIVISION*/
 
 /*# sourceMappingURL=estilo.css.map */

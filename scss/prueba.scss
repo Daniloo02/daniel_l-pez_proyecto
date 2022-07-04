@@ -1,3 +1,6 @@
+$marroncito:#503d2e;
+$clarito:#a79581;
+
 *{  margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -7,7 +10,6 @@
     margin-left:auto
 }
 body { 
-    background-color: #a79581;
     font-family: 'Courier New', Courier, monospace;
 }
 header { 
@@ -35,20 +37,26 @@ nav {
                     text-decoration: none;
                     font-family: 'Courier New', Courier, monospace;
                     font-size: 1.2vw;
-                    border-right: solid 2px #503d2e;
+                    border-right: solid 2px $marroncito;
                     } 
                 &:hover { 
-                    color: #503d2e;
-                    transition: 0.5s;
+                    color: $marroncito;
+                    transition: 0.1s;
                 }
                 }
         }
     }
     //main index
+    main {  
+        background-color: $clarito;
+    }
+    .container { 
+        background-color: $clarito;
+    }
     main h2 { 
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
-        background-color: #503d2e;
+        background-color: $marroncito;
         color: white;
     }
     .cardd { 
@@ -69,7 +77,7 @@ nav {
         margin-top: -56px;
     }
     .consulta { 
-        text-decoration: underline #503d2e;
+        text-decoration: underline $marroncito;
         color: white;
         margin-top: -5px;
     }
@@ -77,10 +85,10 @@ nav {
         margin-top: -60px;
         margin-left: -50px;
         color: white;
-        text-decoration: underline #503d2e;
+        text-decoration: underline $marroncito;
     }
     .seguirnos { 
-        text-decoration: underline #503d2e; 
+        text-decoration: underline $marroncito; 
         color: white;
         margin-top: -17px;
         margin-left: -8px;
@@ -92,7 +100,7 @@ nav {
     .productoss p { 
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
-        background-color: #503d2e;
+        background-color: $marroncito;
         font-size: 16px;
         color: white;
         margin-top: 30px;
@@ -101,7 +109,7 @@ nav {
 .productostittle {
     font-size: 20px;
     text-align: center;
-    background-color: #503d2e;
+    background-color: $marroncito;
     color: white;
 }
 .grid_articles{
@@ -112,7 +120,7 @@ nav {
 }
 .grid_articles img{
     border-radius: 2rem;
-    border-color: #503d2e;
+    border-color: $marroncito;
     border-width: 0.2rem;
     border-style: solid;
     height: 15rem;
@@ -125,7 +133,7 @@ nav {
 }
 .des { 
     color: white;
-    text-decoration: underline #503d2e;
+    text-decoration: underline $marroncito;
     margin-left: 75px;
 }
 #pr { 
@@ -136,19 +144,7 @@ nav {
     margin-top: 30px;
 }
 .boton { 
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 60px;
-    background-color: #503d2e;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-radius: 5px;
+   @extend .button
 }
 .button {
     display: inline-block;
@@ -159,15 +155,16 @@ nav {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color:#503d2e;
+    background-color:$marroncito;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    
 }
 .button:hover {background-color:#c1af9b}
 
 .button:active {
-    background-color:#503d2e;
+    background-color:$marroncito;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -180,7 +177,7 @@ article {
 .sobremipp { 
     text-align: center;
     color: white;
-    background-color: #503d2e;
+    background-color: $marroncito;
     margin-top: 30px;
 }
 .soyju { 
@@ -200,7 +197,8 @@ article {
 }
     /*FOOTER*/
     footer  { 
-        background-color: white;
+        width: 100%;
+        
     }
     .final { 
         display: flex;
@@ -233,6 +231,12 @@ article {
         color: white;
     }
 /*INFORMACION*/
+#infbody { 
+    background-color: #a79581;
+}
+#futerinf { 
+    background-color: white;
+}
 .inf1 { 
     color: white;
     background-color: #503d2e;
@@ -244,7 +248,7 @@ article {
     height: 50px;
     margin: 2rem auto;
     text-align: center;
-    width: 800px;
+    width:400px*2;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -253,12 +257,12 @@ article {
     height: 110px;
     margin: 2rem auto;
     text-align: center;
-    width: 800px;
+    width: 400px*2;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 #curar { 
-    background-color: #503d2e;
+    background-color: $marroncito;
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
@@ -267,7 +271,7 @@ article {
     height: 150px;
     margin: 2rem auto;
     text-align: center;
-    width: 800px;
+    width: 800px*2;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -278,6 +282,7 @@ article {
     display: grid;
     gap: 1.6em;
     grid-template-columns: repeat(5, 1fr);
+    left: -150px;
 }
 
 .container>.header, .container>.content, .container>.sidebar, .container>.footer, .container>div {
@@ -374,3 +379,7 @@ article {
         grid-column: 1/-1;
     }
 }
+/* *MULTIPLICACION*/
+/*-RESTA*/
+/*+SUMA*/
+/*/DIVISION*/
